@@ -1,0 +1,5 @@
+.div-for-our-logo {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
