@@ -10,8 +10,10 @@ const Banner = () => {
             <section className="text-white bg-white-900 bg-img">
                 <div className="max-w-screen-xl px-4 py-32 mx-auto  lg:items-center lg:flex">
                     <div className="max-w-3xl mx-auto text-center">
-                        <div className=' w-full h-32'><img src={{ banner }} alt=""
-                        /></div>
+                        <div className=' w-full h-32'>
+                            <img src={{ banner }} alt=""
+                            />
+                        </div>
                         <h3 className="text-large font-extrabold text-black sm:text-5xl   ">
                             Free Logo Maker.
 
