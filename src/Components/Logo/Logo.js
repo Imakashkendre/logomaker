@@ -1,9 +1,11 @@
 import React from 'react'
+import "./Logo.css"
+
 
 const Logo = (props) => {
     return (
         <>
-            <section className="text-gray-600 body-font">
+            {/* <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-wrap -m-4">
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -15,7 +17,12 @@ const Logo = (props) => {
 
                     </div>
                 </div>
-            </section>
+            </section> */}
+            <div className='all-logo-respo'>
+                <div className='logo-div border-2'>
+                    <img src={props.logo.url} alt="" className=' img-style align-center flex' />
+                </div>
+            </div>
         </>
     )
 }

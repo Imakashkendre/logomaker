@@ -9,8 +9,8 @@ import OurLogo from './Container/OurLogo/OurLogo';
 function App() {
   return (
     <>
-      {/* <Nav /> */}
-      {/* <Banner /> */}
+      <Nav />
+      <Banner />
       {/* <Logo /> */}
       <OurLogo />
     </>

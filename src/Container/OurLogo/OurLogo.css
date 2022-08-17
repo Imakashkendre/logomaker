@@ -1,5 +1,13 @@
 .div-for-our-logo {
   display: flex;
+  justify-content: center;
+}
+.wid-div-for-logos {
+  width: 75em;
+}
+.All-logo {
+  display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  margin-top: 10px;
 }

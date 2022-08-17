@@ -1,0 +1,18 @@
+.logo-div {
+  width: 250px;
+  height: 200px;
+}
+.img-style {
+  width: 220px;
+  height: 190px;
+  margin: auto;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .logo-div {
+    width: 100%;
+  }
+  .all-logo-respo {
+    width: 100%;
+    padding: 1em;
+  }
+}
